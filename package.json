@@ -1,0 +1,26 @@
+{
+  "name": "chisdealhd-api",
+  "version": "0.0.1",
+  "description": "ChisdealHDYT API Data that shows 'Genshin Impact', 'VRChat', many more games.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChisdealHDYT/chisdealhd-api.git"
+  },
+  "keywords": [
+    "genshin",
+    "genshin-impact",
+	"chisdealhd-api"
+  ],
+  "bundleDependencies": false,
+  "deprecated": false,
+  "author": "ChisdealHDYT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChisdealHDYT/chisdealhd-api/issues"
+  },
+  "homepage": "https://github.com/ChisdealHDYT/chisdealhd-api#readme"
+}
