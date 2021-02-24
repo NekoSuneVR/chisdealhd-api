@@ -34,7 +34,7 @@ module.exports.gamesdatamaps = function(game, query) {
 }
 
 
-module.exports.gamesdata = function(game, query) {
+module.exports.gamesdata = function(query) {
     const file = require(`./games/${query}/${query}`);
     if(!file) return console.log(`404`);
 
