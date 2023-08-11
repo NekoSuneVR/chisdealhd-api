@@ -19,21 +19,12 @@ module.exports.vrchatfans = function(query) {
     return file;
 }
 
-module.exports.gamesdatamaps = function(game, query) {
-    const file = require(`./games/${game}/maps/${query}`);
+module.exports.vrchatmaps = function(query) {
+    const file = require(`./games/vrchat/maps/${query}`);
     if(!file) return console.log(`404`);
 
     return file;
 }
-
-
-module.exports.gamesdata = function(query) {
-    const file = require(`./games/${query}/${query}`);
-    if(!file) return console.log(`404`);
-
-    return file;
-}
-
 
 module.exports.cryptoinfo = function(query) {
     const file = require(`./cryptocurrency/${query}`);
