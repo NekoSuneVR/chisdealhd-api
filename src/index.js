@@ -1,19 +1,19 @@
 module.exports.genshincharacters = function(query) {
-    const file = require(`./genshin/characters/${query}`);
+    const file = require(`./games/genshin/characters/${query}`);
     if(!file) return console.log(`404`);
 
     return file;
 }
 
 module.exports.genshinmap = function(query) {
-    const file = require(`./genshin/maps/${query}`);
+    const file = require(`./games/genshin/maps/${query}`);
     if(!file) return console.log(`404`);
 
     return file;
 }
 
 module.exports.vrchatfans = function(query) {
-    const file = require(`./vrchat/players/${query}`);
+    const file = require(`./games/vrchat/players/${query}`);
     if(!file) return console.log(`404`);
 
     return file;
