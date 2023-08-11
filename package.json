@@ -1,6 +1,6 @@
 {
   "name": "nekosunevr-game-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NekoSuneVR API Data that shows 'Genshin Impact', 'VRChat', many more Games/Data.",
   "main": "./src/index.js",
   "scripts": {
