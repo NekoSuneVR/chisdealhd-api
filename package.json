@@ -1,26 +1,27 @@
 {
-  "name": "chisdealhd-api",
-  "version": "0.0.1",
-  "description": "ChisdealHDYT API Data that shows 'Genshin Impact', 'VRChat', many more games.",
+  "name": "nekosunevr-game-api",
+  "version": "1.0.0",
+  "description": "NekoSuneVR API Data that shows 'Genshin Impact', 'VRChat', many more Games/Data.",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChisdealHDYT/chisdealhd-api.git"
+    "url": "git+https://github.com/NekoSuneVR/nekosunevr-game-api.git"
   },
   "keywords": [
     "genshin",
     "genshin-impact",
-	"chisdealhd-api"
+    "nekosunevr-api",
+    "nekosunevr-game-api"
   ],
   "bundleDependencies": false,
   "deprecated": false,
-  "author": "ChisdealHDYT",
+  "author": "NekoSuneVR",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChisdealHDYT/chisdealhd-api/issues"
+    "url": "https://github.com/NekoSuneVR/nekosunevr-game-api/issues"
   },
-  "homepage": "https://github.com/ChisdealHDYT/chisdealhd-api#readme"
+  "homepage": "https://github.com/NekoSuneVR/nekosunevr-game-api#readme"
 }
